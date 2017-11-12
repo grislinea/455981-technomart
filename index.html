@@ -7,234 +7,307 @@
   </head>
   <body>
     <header>
-    <h1>Техномарт</h1>
-    <div>
-      <img src="http://placehold.it/150x100">
-    </div>
-      <p><input type="search" name="q" placeholder="Поиск">
-      <input type="submit" value="Найти"></p>
-      <a href="#">Закладки</a>
-      <a href="#">Корзина</a>
-      <a href="#">Оформить заказ</a>
-    <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
       <div>
-        <a href="#">+7 (812) 555-05-55</a>
-        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <h1 class="header-caption visually-hidden">Техномарт</h1>
+        <a>
+          <img src="img/ТЕХНОМАРТ.png" width="220" height="47" alt="Логотип магазина Техномарт">
+        </a>
+        <form class="search">
+          <p>
+            <label for="search-in-site" class="visually-hidden">Поиск</label>
+            <input id="search-in-site" type="search" name="q" placeholder="Поиск">
+            <img src="http://placehold.it/150x100" width="" height="" alt="Поиск">
+          </p>
+        </form>
+        <ul class="user-service">
+          <li>
+            <img src="http://placehold.it/150x100" width="" height="" alt="Закладки">
+            <a href="bookmarks.html">Закладки</a>
+          </li>
+          <li>
+            <img src="http://placehold.it/150x100" width="" height="" alt="Корзина">
+            <a href="basket.html">Корзина</a>
+          </li>
+          <li class="user-booking"><a href="checkout.html">Оформить заказ</a></li>
+        </ul>
       </div>
       <div>
-        <ul>
-          <li><input type="submit" name="go" value="Войти"></li>
-          <li><input type="submit" name="registration" value="Регистрация"></li>
+        <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        <div class="contact">
+          <img src="http://placehold.it/150x100">
+          <span>+7 (812) 555-05-55</span>
+          <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
+        </div>
+        <ul class="user-navigation">
+          <li>
+            <button class="user-get">
+              Войти
+            </button>
+          </li>
+          <li>
+            <button class="user-registr">
+              Регистрация
+            </button>
+          </li>
         </ul>
       </div>
       <nav>
-        <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Компания</a></li>
-          <li><a href="#">Компания</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>
+        <ul class="site-navigation">
+          <li><a href="main">Главная</a></li>
+          <li><a href="company">Компания</a></li>
+          <li><a href="catalog">Каталог</a></li>
+          <li><a href="news">Новости</a></li>
+          <li><a href="special_offer">Спецпредложения</a></li>
+          <li><a href="delivery">Доставка</a></li>
+          <li><a href="contacts">Контакты</a></li>
+        </ul>
       </nav>
     </header>
-      <section>
-            <div>
-              <h3>Материалы</h3>
-              <input type="submit" name="materials" value="На любой вкус">
-              <img src="http://placehold.it/150x100">
-            </div>
-            <div>
-              <h3>Инструменты</h3>
-              <input type="submit" name="tools" value="На все случаи">
-              <img src="http://placehold.it/150x100">
-            </div>
-            <div>
-              <h3>Техника</h3>
-              <input type="submit" name="technique" value="Для стройки">
-              <img src="http://placehold.it/150x100">
-            </div>
-            <div>
-              <h3>Перфораторы</h3>
-              <input type="submit" name="perforator" value="Отрыть каталог">
-              <img src="http://placehold.it/150x100">
-            </div>
-            <div>
-              <h3>Дрели</h3>
-              <input type="submit" name="drill" value="Отрыть каталог">
-              <img src="http://placehold.it/150x100">
-            </div>
-            <div>
-              <h3>Скидка 50%</h3>
-              <input type="submit" name="discount" value="На 350 товаров">
-              <img src="http://placehold.it/150x100">
-            </div>
-            <div>
-              <h3>Доставка</h3>
-              <input type="submit" name="transfer" value="Бесплатно">
-              <img src="http://placehold.it/150x100">
-            </div>
-        </section>
-        <section>
-          <div>
-            <h2>Популярные товары</h2>
-            <input type="submit" name="products" value="Все популярные товары">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-              <p>Перфоратор BOSCH BFG 9000</p>
-              <p>32500 Р.</p>
-              <input type="submit" name="price" value="25500 Р.">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-              <p>Перфоратор BOSCH BFG 3000</p>
-              <p>22500 Р.</p>
-              <input type="submit" name="price" value="15500 Р.">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-              <p>Перфоратор BOSCH BFG 6000</p>
-              <p>30500 Р.</p>
-              <input type="submit" name="price" value="25500 Р.">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-              <p>Перфоратор BOSCH BFG 2000</p>
-              <input type="submit" name="price" value="12500 Р.">
-          </div>
-        </section>
-        <section>
-          <div>
-            <h2>Популярные производители</h3>
-            <input type="submit" name="makers" value="Все производители">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-          </div>
-          <div>
-              <img src="http://placehold.it/150x100">
-          </div>
-        </section>
-        <section>
-            <h2>Сервисы</h2>
-            <p>Хороший интернет-магазин отличается от плохого не только ценами!
-              Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
-          <div>
-            <table border="1" width="50%" cellpadding="5">
-                <tr>
-                    <td>
-                      Доставка
-                    </td>
-                    <td>
-                      <h3>Доставка</h3>
-                      <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
-                      Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
-                    </td>
-                    <td>
-                      <img src="http://placehold.it/150x100">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                      Гарантия
-                    </td>
-                    <td>
-                      <h3>Гарантия</h3>
-                      <p>Если купленный у нас товар поломается или заискрит,
-                        а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.
-                        Дом уж восстановите как-нибудь сами.</p>
-                    </td>
-                    <td>
-                      <img src="http://placehold.it/150x100">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                      Кредит
-                    </td>
-                    <td>
-                      <h3>Кредит</h3>
-                      <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-                      <input type="submit" name="credit" value="Отправить запрос">
-                    </td>
-                    <td>
-                      <img src="http://placehold.it/150x100">
-                    </td>
-                </tr>
-            </table>
-          </div>
-        </section>
-        <section>
-          <h2>Компания "Техномарт"</h2>
-          <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
-            Мы можем доставить ваш товар в самые отдаленные точки России!
-            Техномарт работает со многими транспортными компаниями: </p>
-          <ul>
-            <li>Деловые линии</li>
-            <li>Автотрейдинг</li>
-            <li>ЖелДорЭкспедиция</li>
-          </ul>
-          <input type="submit" name="about" value="Подробнее о компании">
-          <h2>Контакты</h2>
-          <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-          <div>
-            <img src="http://placehold.it/150x100">
-          </div>
-          <input type="submit" name="Contact" value="Заблудились?Напишите нам!">
-        </section>
-    <footer>
-      <div>
-        <img src="http://placehold.it/150x100">
+    <section class="sections">
+      <a href="#" class="materials">
+        <h2>Материалы</h2>
+        <p>На любой вкус</p>
+        <img src="img/new flag.png" width="60" height="59" alt="Новинка">
+        <img src="img/icon-11.png" width="300" height="123" alt="Материалы">
+      </a>
+      <a href="#" class="tools">
+        <h2>Инструменты</h2>
+        <p>На все случаи</p>
+        <img src="img/icon-22.png" width="300" height="123" alt="Инструменты">
+      </a>
+      <a href="#" class="technique">
+        <h2>Техника</h2>
+        <p>Для стройки</p>
+        <img src="img/icon-33.png" width="300" height="123" alt="Техника">
+      </a>
+      <p class="sliders">
+        <button class="open-catalog">
+          Отрыть каталог
+        </button>
+        <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+        <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+        <form class="slider-indicator">
+          <fielset>
+            <input type="radio" name="sliders-1" id="sl-1" checked>
+            <label for="sl-1">
+              Перфораторы
+            </label>
+            <input type="radio" name="sliders-2" id="sl-2" >
+            <label for="sl-2">
+              Дрели
+            </label>
+          </fielset>
+        </form>
+        <div class="technique_1">
+          <h2>Перфораторы</h2>
+          <p>Настоящие мужские игрушки</p>
+          <figure>
+            <a href="#"><img src="img/Layer 99.jpg" width="620" height="266" alt="Перфораторы"></a>
+          </figure>
+        </div>
+        <div class="technique_2 visually-hidden">
+          <h2>Дрели</h2>
+          <p>Соседям на радость!</p>
+          <figure>
+            <a href="#"><img src="img/Layer 99_2.jpg" width="620" height="266" alt="Дрели"></a>
+          </figure>
+        </div>
+      </p>
+      <a href="#" class="discount">
+        <h2>Скидка 50%</h2>
+        <p>На 350 товаров</p>
+        <img src="img/icon-44.png" width="300" height="123" alt="Техника">
       </div>
-      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
+      <a href="#" class="delivery">
+        <h2>Доставка</h2>
+        <p>Бесплатно</p>
+        <img src="img/icon-55.png" width="300" height="123" alt="Доставка">
+      </a>
+    </section>
+    <section class="main-catalog">
+      <div class="catalog">
+        <h2>Популярные товары</h2>
+        <button class="button-products">
+          Все популярные товары
+        </button>
+      </div>
+      <article class="product_1">
+        <a href="001.html">
+          <img src="img/snippet-32961 copy 3.png" width="184" height="163" alt="товар_1">
+          <span>Перфоратор BOSCH BFG 9000</span>
+          <span>32500 Р.</span>
+          <span>25500 Р.</span>
+        </a>
+      </article>
+      <article class="product_2">
+        <a href="002.html">
+          <img src="img/snippet-18927 copy 2.png" width="126" height="112" alt="товар_2">
+          <span>Перфоратор BOSCH BFG 3000</span>
+          <span>22500 Р.</span>
+          <span>15500 Р.</span>
+        </a>
+      </article>
+      <article class="product_3">
+        <a href="003.html">
+          <img src="img/snippet-945 copy 2.png" width="144" height="128" alt="товар_3">
+          <span>Перфоратор BOSCH BFG 6000</span>
+          <span>30500 Р.</span>
+          <span>25500 Р.</span>
+        </a>
+      </article>
+      <article class="product_4">
+        <a href="004.html">
+          <img src="img/snippet-18927 copy 3.png" width="126" height="112" alt="товар_4">
+          <span>Перфоратор BOSCH BFG 2000</span>
+          <span>12500 Р.</span>
+        </a>
+      </article>
+    </section>
+    <section class="producers">
+      <div class="all-producers">
+        <h2>Популярные производители</h2>
+        <button class="button-producers">
+          Все производители
+        </button>
+      </div>
+      <ul>
+        <li><img src="img/bosch.png" width="126" height="37" alt="производитель_1"></li>
+        <li><img src="img/Makita.png" width="123" height="40" alt="производитель_2"></li>
+        <li><img src="img/DeWALT.png" width="146" height="44" alt="производитель_3"></li>
+        <li><img src="img/Интерскол.png" width="200" height="88" alt="производитель_4"></li>
+        <li><img src="img/Hitachi.png" width="169" height="31" alt="производитель_5"></li>
+        <li><img src="img/LG.png" width="121" height="73" alt="производитель_6"></li>
+        <li><img src="img/AEG.png" width="151" height="96" alt="производитель_7"></li>
+        <li><img src="img/Metabo.png" width="204" height="69" alt="производитель_8"></li>
+      </ul>
+    </section>
+    <section class="service">
+      <h2>Сервисы</h2>
+      <p>Хороший интернет-магазин отличается от плохого не только ценами!
+        Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
       <div>
-        <a href="#">Компания</a>
-        <a href="#">Новости</a>
-        <a href="#">Каталог</a>
-        <a href="#">Доставка</a>
-        <a href="#">Контакты</a>
-        <a href="#">Материалы</a>
-        <a href="#">Техника</a>
-        <a href="#">Инструменты</a>
-        <a href="#">Спецпредложения</a>
+        <ul class="service-items">
+          <li>Доставка</li>
+          <li>Гарантия</li>
+          <li>Кредит</li>
+        </ul>
+        <ul class="service-text">
+          <li class="service-delivery">
+            <h2>Доставка</h2>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
+              Ведь мы неплохо заработаем, поднимая его на ваш этаж!
+            </p>
+          </li>
+          <li class="service-guarantee visually-hidden">
+            <h2>Гарантия</h2>
+            <p>Если купленный у нас товар поломается или заискрит,
+              а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.
+              Дом уж восстановите как-нибудь сами.
+            </p>
+          </li>
+          <li class="service-credit visually-hidden">
+            <h2>Кредит</h2>
+            <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+            <button class="button-service">Отправить запрос</button>
+          </li>
+        </ul>
+        <ul class="service-img">
+          <li><img src="img/Layer 131.jpg" width="468" height="261" alt="Доставка"></li>
+          <li class="visually-hidden"><img src="img/Layer 130.jpg" width="389" height="283" alt="Гарантия"></li>
+          <li class="visually-hidden"><img src="img/Layer 119.jpg" width="465" height="285" alt="Кредит"></li>
+        </ul>
+      </div>
+    </section>
+    <section class="about-company">
+      <div class="about-technomart">
+        <h2>
+          Компания "Техномарт"
+        </h2>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России!
+        Техномарт работает со многими транспортными компаниями: </p>
+        <ul class="about-item">
+          <li>Деловые линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>
+        </ul>
+        <button class="button-about">Подробнее о компании</button>
+      </div>
+      <div class="contact-technomart">
+        <h2>
+          Контакты
+        </h2>
+        <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+        <a href="#"><img src="img/map.jpg" width="300" height="158" alt="Карта"></a>
+        <button class="button-contact">
+          Заблудились?Напишите нам!
+        </button>
+        <div class="contact-map visually-hidden">
+          <button class="close-map">
+            <img src="img/map-2.jpg" width="940" height="446" alt="Карта-2">
+          </button>
+          <img src="http://placehold.it/150x100">
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div>
+        <img src="img/ТЕХНОМАРТ2.png" width="220" height="47" alt="Логотип магазина Техномарт">
+        <ul class="footer-nav">
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
       </div>
       <div>
-        <p>&copy2010–2017 Компания «Техномарт» Все права защищены</p>
+        <p class="footer-contacts">
+          г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55
+        </p>
+        <ul class="footer-nav-2">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструменты</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+        </ul>
       </div>
       <div>
-        <a href="#"><img src="http://placehold.it/150x100"></a>
-        <a href="#"><img src="http://placehold.it/150x100"></a>
-        <a href="#"><img src="http://placehold.it/150x100"></a>
+        <p class="footer-copyright">2010–2017 Компания «Техномарт» Все права защищены</p>
+        <ul class="footer-social">
+          <li><a class="social-button" href="vk.html"><img src="http://placehold.it/150x100"></a></li>
+          <li><a class="social-button" href="fb.html"><img src="http://placehold.it/150x100"></a></li>
+          <li><a class="social-button" href="inst.html"><img src="http://placehold.it/150x100"></a></li>
+        </ul>
+        <div class="footer-links">
+          <p>Обратная связь</p>
+          <a href="#">mail@htmlacademy.ru</a>
+          <p>Разработано-</p>
+          <a href="#">htmlacademy.ru</a>
+        </div>
       </div>
-      <div>
-        <p>Обратная связь</p>
-        <a href="#">mail@htmlacademy.ru</a>
-      </div>
-      <div>
-        <p>Разработано-</p>
-        <a href="#">htmlacademy.ru</a>
-      </div>
+      <form class="user-link visually-hidden" method="post" action="https://echo.htmlacademy.ru">
+        <button class="close-form">
+          <img scr="http://placehold.it/150x100">
+        </button>
+        <fielset>
+        <legend>Форма ввода данных</legend>
+          <label for="user-name">
+            Ваше имя:
+          </label>
+          <input type="text" name="user-name" id="user-name">
+          <label for="user-email">
+            Ваш e-mail:
+          </label>
+          <input type="text" name="user-email" id="user-email">
+          <label for="user-letter">
+            Текст письма:
+          </label>
+          <textarea name="user-letter" id="user-letter" rows="" cols=""></textarea>
+          <button type="submit">Отправить</button>
+        </fieldset>
+      </form>
     </footer>
-<script src="scripts.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
