@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/specimen/Cuprum?selection.family=Cuprum" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="body">
     <header class="header-main">
       <div class="lines-top-down">
         <h1 class="header-caption visually-hidden">Техномарт</h1>
-        <a class="logotype"></a>
+        <a class="logotype"><img src="img/logo-tehnomart.png"></a>
         <form class="search">
             <label for="search-in-site" class="visually-hidden">Поиск</label>
             <input id="search-in-site" type="search" name="q" placeholder="Поиск">
@@ -27,7 +29,7 @@
         </ul>
       </div>
       <div class="header-info">
-        <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        <p class="info">Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</p>
         <div class="contact">
           <p class="phone" >+7 (812) 555-05-55</p>
           <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -40,7 +42,7 @@
           <a href="#" class="personal-account">Личный кабинет</a>
         </div>
       </div>
-      <nav>
+      <nav class="main-nav">
         <ul class="site-navigation">
           <li><a href="main.html">Главная</a></li>
           <li><a href="company.html">Компания</a></li>
@@ -180,12 +182,12 @@
           <p class="price">12500 Р.</p>
         </li>
       </ul>
-      <ul class="pages-buttons">
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">Следующая</a></li>
-      </ul>
+      <div class="paginator">
+        <a href="#1">1</a>
+        <a href="#2">2</a>
+        <a href="#3">3</a></li>
+        <a href="#next">Следующая</a>
+      </div>
     </section>
     <section class="about-product">
       <h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
@@ -196,7 +198,7 @@
     </section>
     <footer class="main-footer">
       <div class="footer-line1">
-        <a href="#"></a>
+        <a href="#"><img src="img/logo-tehnomart.png"></a>
         <ul class="footer-nav">
           <li><a href="#">Компания</a></li>
           <li><a href="#">Новости</a></li>
@@ -207,7 +209,7 @@
       </div>
       <div class="footer-line2">
         <p class="footer-contacts">
-          г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55
+          г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> +7 (812) 555-05-55
         </p>
         <ul class="footer-nav2">
           <li><a href="#">Материалы</a></li>
@@ -217,15 +219,15 @@
         </ul>
       </div>
       <div class="lines-top-down">
-        <p class="footer-copyright">2010–2017 Компания «Техномарт» Все права защищены</p>
+        <p class="footer-copyright">2010–2017 Компания «Техномарт»<br> Все права защищены</p>
         <ul class="footer-social">
           <li><a class="social-button1" href="vk.html"><img src="http://placehold.it/150x100"></a></li>
           <li><a class="social-button2" href="fb.html"><img src="http://placehold.it/150x100"></a></li>
           <li><a class="social-button3" href="inst.html"><img src="http://placehold.it/150x100"></a></li>
         </ul>
         <div class="footer-links">
-          <p>Обратная связь<a href="#">mail@htmlacademy.ru</a></p>
-          <p>Разработано<a href="#">htmlacademy.ru</a></p>
+          <p>Обратная связь<a href="#"><br>mail@htmlacademy.ru</a></p>
+          <p>Разработано<a href="#"><br>htmlacademy.ru</a></p>
         </div>
       </div>
     </footer>
